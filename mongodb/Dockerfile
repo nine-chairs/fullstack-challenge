@@ -1,0 +1,2 @@
+# Database
+FROM mongo:latest
