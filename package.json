@@ -4,7 +4,6 @@
   "description": "## Specification",
   "main": "index.js",
   "scripts": {
-    "build": "cd client && npm run build",
     "start": "npm run start:server & npm run start:client",
     "start:server": "cd server && npm start",
     "start:client": "cd client && npm start"
