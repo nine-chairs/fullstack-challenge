@@ -28,8 +28,8 @@ const CharacterList = ({ characters }) => {
         </button>
         <ul>
           {characters.map((character) => (
-            (viewMode === 'all' || favoriteCharacters.includes(character.id)) && (
-              <CharacterCard key={character.id} character={character} />
+            (viewMode === 'all' || favoriteCharacters.includes(character._id)) && (
+              <CharacterCard key={character._id} character={character} />
             )
           ))}
         </ul>
